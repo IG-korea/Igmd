@@ -1,0 +1,12 @@
+# ~/.mdnotify.conf  (chmod 600 권장)
+
+# --- ntfy (권장, 무료·계정 불필요) ---
+# 남이 추측하기 어려운 이름으로 정하고, 휴대폰 ntfy 앱에서 같은 토픽을 구독
+NTFY_TOPIC=igmd-CHANGE-ME-7f3k9q
+NTFY_SERVER=https://ntfy.sh
+# 자체 서버/인증 사용 시
+# NTFY_TOKEN=tk_xxxxxxxx
+
+# --- Telegram (선택, ntfy와 동시 사용 가능) ---
+# TELEGRAM_BOT_TOKEN=123456:ABC-DEF...
+# TELEGRAM_CHAT_ID=123456789
